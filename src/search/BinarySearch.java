@@ -49,9 +49,9 @@ public class BinarySearch {
         return null;
     }
 
-    private static void printResults(final int target, final int mid,
+    private static void printResults(final int target, final int index,
                                      final long seconds, final int operations) {
-        System.out.println("target " + target + " at index " + mid);
+        System.out.println("target " + target + " at index " + index);
         System.out.println("time taken " + seconds + " seconds");
         System.out.println("operations done " + operations + ", expected " + Math.round(Math.log(LENGTH)/Math.log(2)));
     }
