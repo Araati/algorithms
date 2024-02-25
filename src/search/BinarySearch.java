@@ -22,6 +22,9 @@ public class BinarySearch {
     If it's lower than target, leftBorder = middle index
     If it's equals target, return index
     Repeat until victory or until the borders are equal (it means there no target)
+
+    Time complexity: O(log n)
+    Space complexity O(1)
      */
     private static Integer binarySearch(final int[] array, final int target)  {
         // unrelated
