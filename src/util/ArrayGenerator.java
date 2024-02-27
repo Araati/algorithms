@@ -30,4 +30,13 @@ public class ArrayGenerator {
         }
         return array;
     }
+
+    public static int[] generateConsistentReversedArray(int length) {
+        int[] array = new int[length];
+
+        for (int i = array.length-1; i >= 0; i--) {
+            array[i] = -i+1;
+        }
+        return array;
+    }
 }
